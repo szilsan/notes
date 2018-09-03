@@ -1,0 +1,43 @@
+What is Java for you? (platform, language, environment) What do you like/hate in it?
+What is OOP? What other paradigm do you know?
+Latest features of Java
+Favorite blog/book/etc
+Please give me some examples for anti-pattern!
+What are design patterns, what are they good for? (IoC, singleton, factory, builder, pool)
+What are anti-patterns? Example
+What is clean code?
+How many threads are running in a Java program minimum? What is ThreadPool?
+What  can an interface contain?
+Tools (CI, IDE, builder, issue tracker, etc)
+TDD - why do we need tests? Manager situation - it is not needed
+Agile: meetings, roles
+What is refactoring?
+Code quality measurement
+Collections
+Immutable class
+How do you debug? 
+Testing types. Who does what, when, how.
+What do you expect from a business specification?
+How do you introduce new tools/3rd party libraries/new versions?
+What is CI, what does it mean?
+Describe a good agile developer team
+Spring
+Modules
+Basic function
+Why (not) JEE?
+Hibernate/JPA/eclipseLink
+What does it mean an object is stateless or stateful?
+Hashcode/equals 
+Override, overload
+Try-catch-finally: resource close in java8
+
+
+Warming up questions:
+What are the OOP characteristics? 
+Current java version 
+Main features in Java 8/9
+Override, overload
+What can be in an interface
+Refactoring
+
+
