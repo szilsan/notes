@@ -1,3 +1,13 @@
+Should speak:
+- OOP
+- Immutable class 
+- Design pattern: singleton, factory, builder, ioc
+- Collections
+- hash/equals
+- syncronized -> code
+- 
+
+
 What is Java for you? (platform, language, environment) What do you like/hate in it?
 What is OOP? What other paradigm do you know?
 Latest features of Java
@@ -39,5 +49,97 @@ Main features in Java 8/9
 Override, overload
 What can be in an interface
 Refactoring
+What is transient
+What is gc?
 
+Ugly questions
+Does it work? : 
+    Integer i1 = new Integer(12);
+    Integer i2 = new Integer(12);
+
+    Integer i11 = Integer.valueOf(12);
+    Integer i21 = Integer.valueOf(12);
+
+    Integer i12 = Integer.valueOf(152);
+    Integer i22 = Integer.valueOf(152);
+
+    System.out.println(i1 == i2);
+    System.out.println(i11 == i21);
+    System.out.println(i12 == i22);
+ 
+
+Basic coding questions:
+
+  public static void main(String[] args) {
+    String str = "test";
+    List<String> lst = new ArrayList<>();
+
+    System.out.println(str);
+    System.out.println(lst.size());
+
+    testMethod(str, lst);
+
+    System.out.println(str);
+    System.out.println(lst.size());
+
+    testMethod2(str, lst);
+
+    System.out.println(str);
+    System.out.println(lst.size());
+  }
+
+  static void testMethod(String str, List<String> lst) {
+    str = str + "2";
+    lst.add("test");
+  }
+
+  static void testMethod2(String str, List<String> lst) {
+    str = "2";
+    lst = new ArrayList<>();
+    lst.add("test");
+    lst.add("test2");
+  }
+=======================================
+
+public class PC {
+
+  public ArrayList<String> d = new ArrayList<>();
+
+  /**
+   * Add data
+   * @param str
+   */
+  private void addData(String str) {
+    try {
+      d.add(str);
+    } catch (Exception ex) {
+      ;
+    }
+  }
+
+  /**
+   * Remove the string if it is sensitive word
+   *
+   * @param str
+   */
+  void removeIfSensitive(String str) {
+    if (str.equals("test")) {
+      d.remove("test");
+    }
+    if (str.equals("test2")) {
+      d.remove("test2");
+    }
+  }
+
+  public ArrayList<String> getD() {
+    return d;
+  }
+}
+===============================
+
+Make the class immutable:
+
+String name;
+String age;
+List<String> favoriteBooks;
 
