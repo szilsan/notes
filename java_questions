@@ -143,3 +143,36 @@ String name;
 String age;
 List<String> favoriteBooks;
 
+===============================
+Overloading, overriding
+
+class A {
+    protected Object myMethod(Integer i) {
+        return "" + i;
+    }
+}
+
+class B extends A {
+
+    //override
+
+    //overload
+}
+
+=================================
+Default methods
+
+    default int method1() {
+        return 1;
+    }
+}
+
+interface I2 {
+    default int method1() {
+        return 2;
+    }
+}
+
+class C implements I1, I2 {
+
+}
