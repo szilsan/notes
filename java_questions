@@ -176,3 +176,14 @@ interface I2 {
 class C implements I1, I2 {
 
 }
+
+
+Write a method that tells whether a given positive integer is happy. A happy number is found using the following process: Take the sum of the squares of its digits, and continue iterating this process until it yields 1, or produces an infinite loop.
+
+For example the number 49:
+4^2 + 9^2 = 97
+9^2 + 7^2 = 130
+1^2 + 3^2 + 0^2 = 10
+1^2 + 0^2 = 1
+
+Therefore number 49 is happy. Similarly 10 is happy, but 2, 3, 4, 5, 6, 8 or 9 are not happy.
