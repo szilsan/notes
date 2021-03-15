@@ -187,3 +187,54 @@ For example the number 49:
 1^2 + 0^2 = 1
 
 Therefore number 49 is happy. Similarly 10 is happy, but 2, 3, 4, 5, 6, 8 or 9 are not happy.
+
+
+Name:
+
+- expression: 
+- english: 
+
+- OOP: 
+  - principles: 
+  - polymorphism: 
+  
+- Java: 
+	- Override vs overloading: 
+		- undertanding: 
+		- visibility: 
+		- exception: 
+
+	- Deciding between checked vs unchecked exception: 
+
+	- Java interface: 
+		- functional interface: 
+		- compare to abstract class: 
+		- default method collosion: 
+
+	- static class: 
+	- inner classes: 
+
+	- Collections: 
+		- interfaces: 
+		- set vs list: 
+		- arraylist vs linkedlist: 
+		- hashmap: 
+
+	- ArrayList in multithread env.: 
+		- synchronised: 
+		- other solution: 
+
+	- volatile: 
+	- transient: 
+	- strictfp: 
+
+- Design patterns:
+	- listed:
+	- IoC/DI:
+	- MVC:
+	- Factory:
+  
+- Used Tools: 
+
+Coding - happy numbers:
+
